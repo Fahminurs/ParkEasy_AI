@@ -1,0 +1,38 @@
+# Virtual Environment
+venv_yolo_ocr/
+venv/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+.env.local
+
+# Backup folder
+Backup/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Model weights (too large for git)
+*.pt
+*.onnx
+
+# Byte-compiled / optimized
+*.py[cod]
+*$py.class
